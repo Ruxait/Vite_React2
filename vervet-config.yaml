@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: My API
+  version: 1.0.0
+
+# Каталоги с версиями API
+resources:
+  - path: api
+
+# (опционально) шаблон
+templates:
+  - path: templates
+
+# Куда собирать спецификацию
+output:
+  path: public/openapi.yaml
