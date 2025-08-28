@@ -10,8 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist",
-    "test": "vitest",
-    "vervet:build": "npx vervet merge --config vervet.yaml --output public/openapi.yaml"
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^19.1.1",
